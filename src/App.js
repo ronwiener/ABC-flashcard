@@ -19,7 +19,7 @@ function App() {
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: false,
+    infinite: true,
     speed: 1000,
     autoplay: false,
 
