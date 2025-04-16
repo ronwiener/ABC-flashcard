@@ -107,7 +107,6 @@ function App1() {
                   url={card.photo}
                   playing={true}
                   loop={true}
-                  controls={true}
                 />
               </div>
               <div>

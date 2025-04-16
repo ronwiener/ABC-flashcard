@@ -8,6 +8,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import PixelTransition from "./PixelTransition";
 
 function App() {
   const [sliderRef, setSliderRef] = useState(null);
@@ -93,7 +94,56 @@ function App() {
                   {card.text}
                 </Typography>
               </div>
-              <div>
+              <div
+                style={{
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  width: "40%",
+                }}
+              >
+                <PixelTransition
+                  firstContent={
+                    <img
+                      src={card.photo}
+                      alt="default pixel transition content"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  }
+                  secondContent={
+                    <div
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        display: "grid",
+                        placeItems: "center",
+                        backgroundColor: "#111",
+                      }}
+                    >
+                      <p
+                        src={card.hideText}
+                        alt="text"
+                        style={{
+                          fontWeight: 900,
+                          fontSize: matchesSM ? "2rem" : "3rem",
+                          color: "#ffffff",
+                          textAlign: "center",
+                        }}
+                      >
+                        {card.hideText}
+                      </p>
+                    </div>
+                  }
+                  gridSize={12}
+                  pixelColor="#ffffff"
+                  animationStepDuration={0.4}
+                  className="custom-pixel-card"
+                />
+                {/*
                 <img
                   style={{
                     width: "100vw",
@@ -103,6 +153,7 @@ function App() {
                   src={card.photo}
                   alt="photograph"
                 />
+                */}
               </div>
               <div>
                 <img

@@ -5,6 +5,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Ant.jpg"),
     word: require("./Words/Ant.jpg"),
+    hideText: "I'm Crawley",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Bat.png"),
     word: require("./Words/Bat.jpg"),
+    hideText: "Squeak!",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Cat.jpg"),
     word: require("./Words/Cat.jpg"),
+    hideText: "Meow!",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Oosha.jpg"),
     word: require("./Words/Dog.jpg"),
+    hideText: "WOOF!",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Egg.jpg"),
     word: require("./Words/Egg.jpg"),
+    hideText: "I'm Eggy",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Frog.jpg"),
     word: require("./Words/Frog.jpg"),
+    hideText: "Ribbit",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Goat.jpg"),
     word: require("./Words/Goat.jpg"),
+    hideText: "Maaaaa!",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Hat.png"),
     word: require("./Words/Hat.jpg"),
+    hideText: "Howdy Cowboy",
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Ink.jpg"),
     word: require("./Words/Ink.jpg"),
+    hideText: "I'm Inky",
   },
   {
     id: 10,
@@ -68,6 +77,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Joey.jpg"),
     word: require("./Words/Joey.jpg"),
+    hideText: "Hi Mommy",
   },
   {
     id: 11,
@@ -75,6 +85,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Kite.jpg"),
     word: require("./Words/Kite.jpg"),
+    hideText: "Fly me",
   },
   {
     id: 12,
@@ -82,6 +93,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Lion.jpg"),
     word: require("./Words/Lion.jpg"),
+    hideText: "ROAR!",
   },
   {
     id: 13,
@@ -89,6 +101,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Moon.jpg"),
     word: require("./Words/Moon.jpg"),
+    hideText: "I see the Moon",
   },
   {
     id: 14,
@@ -96,6 +109,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Nut.jpg"),
     word: require("./Words/Nut.jpg"),
+    hideText: "Peanuts",
   },
   {
     id: 15,
@@ -103,6 +117,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Owl.jpg"),
     word: require("./Words/Owl.jpg"),
+    hideText: "WHOOOO!",
   },
   {
     id: 16,
@@ -110,6 +125,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Pony.jpg"),
     word: require("./Words/Pony.jpg"),
+    hideText: "Neigh!",
   },
   {
     id: 17,
@@ -117,6 +133,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Queen.jpg"),
     word: require("./Words/Queen.jpg"),
+    hideText: "I'm a Queen",
   },
   {
     id: 18,
@@ -124,6 +141,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Robot.jpg"),
     word: require("./Words/Robot.jpg"),
+    hideText: "My name is Robot",
   },
   {
     id: 19,
@@ -131,6 +149,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Sun.jpg"),
     word: require("./Words/Sun.jpg"),
+    hideText: "Good Morning Sun",
   },
   {
     id: 20,
@@ -138,6 +157,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Tree.jpg"),
     word: require("./Words/Tree.jpg"),
+    hideText: "Climb on me",
   },
   {
     id: 21,
@@ -145,6 +165,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Up.jpg"),
     word: require("./Words/Up.jpg"),
+    hideText: "Sky High",
   },
   {
     id: 22,
@@ -152,6 +173,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Van.jpg"),
     word: require("./Words/Van.jpg"),
+    hideText: "Varoom",
   },
   {
     id: 23,
@@ -159,6 +181,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Web.jpg"),
     word: require("./Words/Web.jpg"),
+    hideText: "Itsy Bitsy Spider",
   },
   {
     id: 24,
@@ -166,6 +189,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Xray.png"),
     word: require("./Words/Xray.jpg"),
+    hideText: "Bones",
   },
   {
     id: 25,
@@ -173,6 +197,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Yarn.jpg"),
     word: require("./Words/Yarn.jpg"),
+    hideText: "Knit me a hat",
   },
   {
     id: 26,
@@ -180,6 +205,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Zebra.jpg"),
     word: require("./Words/Zebra.jpg"),
+    hideText: "I'm Stripey",
   },
 ];
 
