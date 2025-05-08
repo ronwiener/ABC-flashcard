@@ -141,7 +141,7 @@ const Data = [
     text: "is for...",
     photo: require("./Pictures/Robot.jpg"),
     word: require("./Words/Robot.jpg"),
-    hideText: "My name is Robot",
+    hideText: "My name is Robbie",
   },
   {
     id: 19,

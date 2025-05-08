@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PixelTransition from "./PixelTransition";
+import GradientText from "./GradientText";
 
 function App() {
   const [sliderRef, setSliderRef] = useState(null);
@@ -104,15 +105,26 @@ function App() {
               >
                 <PixelTransition
                   firstContent={
-                    <img
-                      src={card.photo}
-                      alt="default pixel transition content"
+                    <div
                       style={{
                         width: "100%",
                         height: "100%",
+                        display: "grid",
                         objectFit: "contain",
+                        placeItems: "center",
                       }}
-                    />
+                    >
+                      <img
+                        src={card.photo}
+                        alt="default pixel transition content"
+                        style={{
+                          width: "100%",
+                          height: "auto",
+                          objectFit: "contain",
+                          mixBlendMode: "lighten",
+                        }}
+                      />
+                    </div>
                   }
                   secondContent={
                     <div
@@ -120,8 +132,9 @@ function App() {
                         width: "100%",
                         height: "100%",
                         display: "grid",
+                        objectFit: "contain",
                         placeItems: "center",
-                        backgroundColor: "#111",
+                        backgroundColor: "bisque",
                       }}
                     >
                       <p
@@ -134,7 +147,20 @@ function App() {
                           textAlign: "center",
                         }}
                       >
-                        {card.hideText}
+                        <GradientText
+                          colors={[
+                            "#40ffaa",
+                            "#0B379DFF",
+                            "#40ffaa",
+                            "#0B379DFF",
+                            "#40ffaa",
+                          ]}
+                          animationSpeed={5}
+                          showBorder={false}
+                          className="custom-class"
+                        >
+                          {card.hideText}
+                        </GradientText>
                       </p>
                     </div>
                   }
